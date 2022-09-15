@@ -122,8 +122,14 @@ const start = () => {
 
       clearInterval(startCountdown);
       startTime = new Date().getTime();
+
+
     }
     count--;
+    // if (count < -1) {
+    //   count = 0;
+    // }
+
   }, 1000);
 };
 
